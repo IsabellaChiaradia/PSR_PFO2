@@ -18,29 +18,29 @@ Está desarrollado con **Flask** para el backend, **SQLite** para la persistenci
 ---
 
 ## Estructura del proyecto
-
-PFO2/
-│
-├── Routes/                # Rutas separadas por funcionalidad
-│   ├── login.py           # Lógica de inicio de sesión
-│   ├── register.py        # Lógica de registro de usuario
-│   └── task.py            # Ruta protegida de bienvenida
-│
-├── Templates/             # Plantillas HTML
-│   ├── login.html
-│   ├── register.html
-│   └── tasks.html
-│
-├── static/                # Archivos estáticos como CSS
-│   └── styles.css
-│
-├── app.py                 # Punto de entrada y configuración de la app Flask
-├── cliente.py             # Cliente en consola
-├── db.py                  # Conexión a la base de datos SQLite
-├── utils.py               # Funciones auxiliares como hashing de contraseñas
-├── requirements.txt       # Lista de dependencias del proyecto
-└── README.md              # Documentación del proyecto
-
+```
+    PFO2/
+    │
+    ├── Routes/                # Rutas separadas por funcionalidad
+    │   ├── login.py           # Lógica de inicio de sesión
+    │   ├── register.py        # Lógica de registro de usuario
+    │   └── task.py            # Ruta protegida de bienvenida
+    │
+    ├── Templates/             # Plantillas HTML
+    │   ├── login.html
+    │   ├── register.html
+    │   └── tasks.html
+    │
+    ├── static/                # Archivos estáticos como CSS
+    │   └── styles.css
+    │
+    ├── app.py                 # Punto de entrada y configuración de la app Flask
+    ├── cliente.py             # Cliente en consola
+    ├── db.py                  # Conexión a la base de datos SQLite
+    ├── utils.py               # Funciones auxiliares como hashing de contraseñas
+    ├── requirements.txt       # Lista de dependencias del proyecto
+    └── README.md              # Documentación del proyecto
+```
 
 
 
